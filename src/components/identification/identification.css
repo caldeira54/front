@@ -1,0 +1,261 @@
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.input-wrapper {
+    width: 40%;
+    box-sizing: border-box;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.checkbox-wrapper {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-around;
+}
+
+.content-checkbox {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.input-wrapper-checkbox {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.input-wrapper label {
+    width: 100%;
+}
+
+.input-wrapper select {
+    width: 375px;
+    height: 25px;
+    padding: 0;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 6px;
+    margin-left: 5%;
+}
+
+.input-wrapper select:focus {
+    outline: none;
+    border: 1px solid #349B30;
+    border-bottom: 3px solid #349B30;
+}
+
+.input-wrapper .error-border:focus {
+    border: 1px solid #9e332c;
+    border-bottom: 3px solid #9e332c;
+}
+
+.input-id {
+    width: 200px;
+    height: 25px;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 6px;
+    margin-left: 5%;
+}
+
+.input-id:focus {
+    outline: none;
+    border: 1px solid #349B30;
+    border-bottom: 3px solid #349B30;
+}
+
+.input-last {
+    display: flex;
+    padding: 10px;
+}
+
+.input-last .error-border:focus {
+    border: 1px solid #9e332c;
+    border-bottom: 3px solid #9e332c;
+}
+
+.input-last textarea {
+    width: 85%;
+    border-radius: 6px;
+    border: none;
+    padding: 5px;
+    resize: none;
+}
+
+.input-last textarea:focus {
+    outline: none;
+    border: 1px solid #349B30;
+    border-bottom: 3px solid #349B30;
+}
+
+.input-last label {
+    width: 75px;
+}
+
+#input-id {
+    width: 500px;
+    height: 25px;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 6px;
+    margin-left: 4%;
+}
+
+.container-last {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.button-save {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.button-save-identification {
+    background-color: #349B30;
+    color: #FFF;
+    font-size: 20px;
+    padding: 8px 12px 8px 12px;
+    margin: 16px;
+    width: auto;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-save-identification:hover {
+    background-color: green;
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    border-radius: 10px;
+    max-width: 20rem;
+    max-height: 40rem;
+    padding: 20px;
+    transform: translate(-50%, -50%) scale(1);
+    border: 2px solid #555;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.modal:hover {
+    outline: none;
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content .button-confirm {
+    background-color: #349B30;
+    color: #FFF;
+    font-size: 20px;
+    padding: 8px 12px 8px 12px;
+    margin: 16px;
+    width: auto;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.modal-content .button-confirm:hover {
+    background-color: #42cf3d;
+}
+
+.message-empty-fields {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.message-empty-fields span {
+    color: #9e332c;
+    font-weight: 700;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+@media screen and (min-width: 480px) and (max-width: 1000px) {
+    .input-group {
+        flex-direction: column;
+    }
+
+    .input-wrapper .input-id {
+        right: 25%;
+        position: absolute;
+    }
+
+    .input-wrapper select {
+        right: 25%;
+        position: absolute;
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 600px) {
+    .input-wrapper .input-id {
+        width: 30%;
+    }
+
+    .input-wrapper select {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .input-group {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .input-group .input-wrapper {
+        flex-direction: column;
+        width: 70%;
+    }
+
+    .input-wrapper .input-id {
+        width: 100%;
+    }
+
+    .input-wrapper select {
+        width: 100%;
+    }
+
+    .checkbox-wrapper {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .container-last {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-last .input-last {
+        flex-direction: column;
+    }
+}

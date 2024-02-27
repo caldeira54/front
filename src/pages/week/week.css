@@ -1,0 +1,54 @@
+.container-week {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    align-items: center;
+    margin: 2% 0 10% 10%;
+    background-color: #ececec;
+}
+
+/* .header-week {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-week img {
+    width: 175px;
+    height: 175px;
+}
+
+.header-week span {
+    font-weight: bold;
+    font-size: 12px;
+} */
+
+.order-week {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.content-week {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-week span {
+    font-weight: bold;
+    margin: 16px 0 16px 0;
+}
+
+.content-week textarea {
+    border-radius: 6px;
+    border: none;
+    padding: 5px;
+}
+
+.content-week input {
+    width: 50px;
+    margin-bottom: 16px;
+}

@@ -1,0 +1,23 @@
+.container-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-logo img {
+    width: 175px;
+    height: 175px;
+}
+
+.container-logo span {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 720px) {
+    .container-logo img {
+        width: 120px;
+        height: 120px;
+    }
+}

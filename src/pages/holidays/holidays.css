@@ -1,0 +1,63 @@
+.container-holidays {
+    width: 100%;
+    height: 100%;
+    background-color: #f7f7f7;
+    overflow: auto;
+}
+
+.menu-holidays {
+    position: absolute;
+    margin: 40px 0 0 40px;
+}
+
+.content-holidays {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    align-items: center;
+    margin: 2% 0 12.5% 12.5%;
+    padding-top: 10px;
+    background-color: #ececec;
+}
+
+.container-holidays h3 {
+    margin: 15px 0px 15px 0px;
+}
+
+.register {
+    display: flex;
+    align-items: center;
+}
+
+.data input {
+    width: 200px;
+    height: 25px;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 6px;
+    margin: 15px;
+}
+
+.data input:focus {
+    outline: none;
+    border: 1px solid #349B30;
+    border-bottom: 3px solid #349B30;
+}
+
+.button-save-holiday {
+    background-color: #349B30;
+    color: #FFF;
+    font-size: 20px;
+    padding: 8px 12px 8px 12px;
+    margin: 16px;
+    width: auto;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-save-holiday:hover {
+    background-color: green;
+}

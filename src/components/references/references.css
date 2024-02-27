@@ -1,0 +1,124 @@
+.content-references {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-references {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 80%;
+}
+
+.input-references textarea {
+    width: 100%;
+    border-radius: 6px;
+    border: none;
+    padding: 5px;
+    resize: none;
+}
+
+.input-references textarea:focus {
+    outline: none;
+    border: 1px solid #349B30;
+    border-bottom: 3px solid #349B30;
+}
+
+.input-references label {
+    width: 75px;
+}
+
+.date {
+    width: 150px;
+    height: 25px;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 6px;
+}
+
+.date:focus {
+    outline: none;
+    border: 1px solid #349B30;
+    border-bottom: 3px solid #349B30;
+}
+
+.button-save-references {
+    background-color: #349B30;
+    color: #FFF;
+    font-size: 20px;
+    padding: 8px 12px 8px 12px;
+    margin: 0 auto;
+    width: auto;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-save-references:hover {
+    background-color: green;
+}
+
+.saved {
+    color: #349B30;
+    text-align: center;
+    grid-column: span 2;
+    margin: 10px 0px 20px 0px;
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    border-radius: 10px;
+    max-width: 20rem;
+    max-height: 40rem;
+    padding: 20px;
+    transform: translate(-50%, -50%) scale(1);
+    border: 2px solid #555;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.modal:hover {
+    outline: none;
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content .button-confirm {
+    background-color: #349B30;
+    color: #FFF;
+    font-size: 20px;
+    padding: 8px 12px 8px 12px;
+    margin: 16px;
+    width: auto;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.modal-content .button-confirm:hover {
+    background-color: #42cf3d;
+}
+
+.content-references .error-border:focus {
+    border: 1px solid #9e332c;
+    border-bottom: 3px solid #9e332c;
+}
+
+.error-message {
+    margin-top: 1rem;
+    color: #9e332c;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 600px) {}

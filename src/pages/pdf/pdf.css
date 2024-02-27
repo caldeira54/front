@@ -1,0 +1,253 @@
+.container-pdf {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-pdf {
+    border: 1px solid #000;
+    width: 70%;
+}
+
+.header-pdf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.header-pdf img {
+    width: 240px;
+    height: 140px;
+    align-items: center;
+}
+
+.header-pdf span {
+    font-size: 11px;
+}
+
+.span-address {
+    font-size: 9px;
+}
+
+.session-pdf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-session-pdf {
+    width: 99%;
+    border-bottom: 1px solid #000;
+    background-color: #c6d9f1;
+    padding: 5px;
+    text-align: center;
+}
+
+.two-elements {
+    width: 99%;
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+.left {
+    padding: 5px 300px 5px 5px;
+    border-right: 1px solid #000;
+    width: 50%;
+}
+
+.left input {
+    width: 600px;
+    border: none;
+    font-size: 24px;
+}
+
+.rigth {
+    padding-left: 5px;
+}
+
+.rigth input {
+    border: none;
+    width: 160px;
+    font-size: 24px;
+}
+
+.teacher-pdf {
+    width: 99%;
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+.menu-and-objective {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000;
+    /* padding: 5px; */
+}
+
+.menu-and-objective p {
+    padding: 5px;
+}
+
+.menu-and-objective input {
+    width: 880px;
+    border: none;
+    font-size: 24px;
+}
+
+.p-menu {
+    border-bottom: 1px solid #000;
+}
+
+.table-pdf table {
+    border-collapse: collapse;
+    color: #000;
+}
+
+.table-pdf table th {
+    border: 1px solid #000;
+    padding: 5px;
+    text-align: center;
+    background: #000;
+    color: #f2f2f2;
+}
+
+.table-pdf table td {
+    border: 1px solid #000;
+    padding: 5px;
+    text-align: center;
+}
+
+.datas-references-pdf {
+    width: 99%;
+    border-bottom: 1px solid #000;
+    padding: 5px;
+}
+
+.date-pdf {
+    border: 1px solid #000;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.date-final-pdf {
+    padding: 0px 350px 20px 5px;
+    border-right: 1px solid #000;
+}
+
+.signature {
+    padding: 0px 0px 20px 5px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button-delete {
+    background-color: #BB2D3B;
+    color: #FFF;
+    font-size: 20px;
+    padding: 8px 12px 8px 12px;
+    margin: 16px;
+    width: auto;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-update {
+    background-color: #FFCA2C;
+    color: #FFF;
+    font-size: 20px;
+    padding: 8px 12px 8px 12px;
+    margin: 16px;
+    width: auto;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-download {
+    background-color: #31D2F2;
+    color: #FFF;
+    font-size: 20px;
+    padding: 8px 12px 8px 12px;
+    margin: 16px;
+    width: auto;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-cancel {
+    background-color: #FFCA2C;
+    color: #FFF;
+    font-size: 20px;
+    padding: 8px 12px 8px 12px;
+    margin: 16px;
+    width: auto;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-delete:hover {
+    background-color: red;
+}
+
+.button-update:hover {
+    background-color: yellow;
+}
+
+.button-download:hover {
+    background-color: aqua;
+}
+
+.back {
+    margin: 20px;
+}
+
+.back img {
+    width: 35px;
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    border-radius: 10px;
+    max-width: 20rem;
+    max-height: 40rem;
+    padding: 20px;
+    transform: translate(-50%, -50%) scale(1);
+    border: 2px solid #555;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.modal:hover {
+    outline: none;
+}
+
+.modal-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-checkbox-pdf {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.input-wrapper-checkbox-pdf {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}

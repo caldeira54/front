@@ -1,0 +1,21 @@
+.container-listing {
+    width: 100%;
+    height: 100%;
+    background-color: #f7f7f7;
+    overflow: auto;
+}
+
+.content-listing {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    align-items: center;
+    margin: 2% 0 12.5% 12.5%;
+    padding-top: 20px;
+    background-color: #ececec;
+}
+
+.menu-listing {
+    position: absolute;
+    margin: 40px 0 0 40px;
+}

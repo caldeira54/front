@@ -1,0 +1,55 @@
+.container-home {
+    width: 100%;
+    height: 100%;
+    background-color: #f7f7f7;
+    overflow: auto;
+    padding-bottom: 80px;
+}
+
+.menu-home {
+    position: absolute;
+    margin: 40px 0 0 40px;
+}
+
+.content-ppt {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #ececec;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.title {
+    width: 100%;
+    background-color: #6e9c5f;
+    color: #000;
+    text-align: center;
+    padding: 8px 0 8px;
+    font-weight: 550;
+}
+
+label input {
+    margin-right: 8px;
+    background-color: #f7f7f7;
+}
+
+.all-tabs {
+    background-color: #165014;
+}
+
+.all-tabs .tab:hover {
+    background-color: #3c5935;
+}
+
+.all-tabs .tab:enabled {
+    color: #ececec;
+    background-color: #22611f;
+}
+
+
+@media screen and (max-width: 720px) {
+
+}

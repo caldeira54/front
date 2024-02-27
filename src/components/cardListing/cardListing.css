@@ -1,0 +1,37 @@
+.container-card-listing {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.content-card-listing {
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 24px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.button-card-listing {
+    display: flex;
+    justify-content: center;
+}
+
+.button-view {
+    background-color: #349B30;
+    color: #FFF;
+    font-size: 20px;
+    padding: 8px 12px 8px 12px;
+    margin: 16px;
+    width: auto;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-view:hover {
+    background-color: green;
+}
+
+.content-card-listing span {
+    font-size: 24px;
+}

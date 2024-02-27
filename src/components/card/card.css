@@ -1,0 +1,92 @@
+.container-card {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.content-card {
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 24px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.data-card {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    width: 100%;
+}
+
+.text {
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.week-order {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.content-span {
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+}
+
+.content-span textarea{
+    resize: none;
+}
+
+.content-span textarea:focus {
+    outline: none;
+    border: 1px solid #349B30;
+    border-bottom: 3px solid #349B30;
+}
+
+.content-span input:focus {
+    outline: none;
+    border: 1px solid #349B30;
+    border-bottom: 3px solid #349B30;
+}
+
+.button-save-card {
+    background-color: #349B30;
+    color: #FFF;
+    font-size: 20px;
+    padding: 8px 12px 8px 12px;
+    margin: 16px;
+    width: auto;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-save-card:hover {
+    background-color: green;
+}
+
+.saved {
+    color: #349B30;
+    text-align: center;
+    grid-column: span 2;
+    margin-top: 20px;
+}
+
+.error-border{
+    outline: none;
+    border: 1px solid #ac2323;
+    border-bottom: 3px solid #ac2323;
+}
+
+@media screen and (max-width: 800px) {
+    .data-card{
+        grid-template-columns: 90%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .week-order{
+        flex-direction: column;
+    }
+}

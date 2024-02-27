@@ -1,0 +1,63 @@
+.container-card-holidays {
+    width: 50%;
+    margin-bottom: 24px;
+}
+
+.content-card-holidays {
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 24px;
+}
+
+.data-card-holiday input {
+    width: 200px;
+    height: 25px;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin: 15px;
+}
+
+.data-card-holiday input:focus {
+    outline: none;
+    border: 1px solid #349B30;
+    border-bottom: 3px solid #349B30;
+}
+
+.button-delete-holidays {
+    background-color: #BB2D3B;
+    color: #FFF;
+    font-size: 20px;
+    padding: 8px 12px 8px 12px;
+    margin: 16px;
+    width: auto;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-delete-holidays:hover {
+    background-color: red;
+}
+
+.button-save-holidays {
+    background-color: #349B30;
+    color: #FFF;
+    font-size: 20px;
+    padding: 8px 12px 8px 12px;
+    margin: 16px;
+    width: auto;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-save-holidays:hover {
+    background-color: green;
+}
+
+.buttons-holidays {
+    display: flex;
+    justify-content: space-around;
+}
